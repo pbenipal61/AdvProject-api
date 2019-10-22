@@ -1,20 +1,15 @@
 const { UserService } = require("../../services");
 const { ResponseTools } = require("../../utilities");
 const login = async (req, res, next) => {
-  const user = await UserService.login(req.body);
-  user = null
-    ? ResponseTools.respond(res, 404, "User not registered", null)
-    : ResponseTools.respond(res, 200, "User logged in", user);
+  console.log("Logging in ...");
+  const data = await UserService.login(req.body);
+  console.log("data", data);
+  res.header("x-auth-token", data.token).send(data);
 };
 
 const register = async (req, res, next) => {
-  let user = await UserService.validateExistingUser(req.body);
-  if (user != null) {
-    ResponseTools.respond(res, 200, "User exists already", user);
-  }
-
-  user = await UserService.register(req.body);
-  ResponseTools.respond(res, 202, "User registered", user);
+  let data = await UserService.register(req.body);
+  res.header("x-auth-token", data.token).send(data);
 };
 
 module.exports = { login, register };

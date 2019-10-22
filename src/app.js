@@ -15,7 +15,7 @@ mongoose
   .catch(err => {
     console.log("MongoDB failed to connect!", err);
   });
-mongoose.set("useFindAndModify", false);
+mongoose.set("useFindAndModify", false); // To make mongoose return new version of document when a doc is updated
 
 const app = express();
 app.use(cors());

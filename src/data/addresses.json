@@ -1,0 +1,94 @@
+{
+  "addresses": [
+    {
+      "streetAddress": "Lukiokatu 54",
+      "city": "Raahe",
+      "postalCode": 92100,
+      "location": {
+        "lon": 24.4826199,
+        "lat": 64.6874476
+      }
+    },
+    {
+      "streetAddress": "Rautatienkatu 78",
+      "city": "Oulu",
+      "postalCode": 90400,
+      "location": {
+        "lon": 25.4651553,
+        "lat": 64.9989362
+      }
+    },
+    {
+      "streetAddress": "Tawastintie 18",
+      "city": "Hämeenlinna",
+      "postalCode": 13270,
+      "location": {
+        "lon": 24.5285635,
+        "lat": 60.9973813
+      }
+    },
+    {
+      "streetAddress": "Torikatu 33",
+      "city": "Oulu",
+      "postalCode": 90100,
+      "location": {
+        "lon": 25.4621599,
+        "lat": 65.0094865
+      }
+    },
+    {
+      "streetAddress": "Ilmalankuja 70",
+      "city": "Helsinki",
+      "postalCode": 240,
+      "location": {
+        "lon": 24.9179579,
+        "lat": 60.2066807
+      }
+    },
+    {
+      "streetAddress": "Pohjoisesplanadi 40",
+      "postalCode": 130,
+      "city": "Helsinki",
+      "location": {
+        "lon": 24.9435149,
+        "lat": 60.1677502
+      }
+    },
+    {
+      "streetAddress": "Kankaanpääntie 79",
+      "postalCode": 91980,
+      "city": "Lumijoki",
+      "location": {
+        "lon": 25.1643175,
+        "lat": 64.836925
+      }
+    },
+    {
+      "streetAddress": "Pesolantie 60",
+      "postalCode": 80140,
+      "city": "Joensuu",
+      "location": {
+        "lon": 29.6901814,
+        "lat": 62.6241572
+      }
+    },
+    {
+      "streetAddress": "Koulutie 40",
+      "postalCode": 90460,
+      "city": "Oulunsalo",
+      "location": {
+        "lon": 25.4084744,
+        "lat": 64.931898
+      }
+    },
+    {
+      "streetAddress": "Linnoitustie 64",
+      "postalCode": 2600,
+      "city": "Espoo",
+      "location": {
+        "lon": 24.810918,
+        "lat": 60.2113959
+      }
+    }
+  ]
+}

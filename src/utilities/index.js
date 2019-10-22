@@ -1,3 +1,4 @@
 module.exports = {
-  ResponseTools: require("./ResponseTools")
+  ResponseTools: require("./ResponseTools"),
+  CoordinateTools: require("./CoordinateTools")
 };
