@@ -1,7 +1,7 @@
 {
   "addresses": [
     {
-      "streetAddress": "Lukiokatu 54",
+      "adress": "Lukiokatu 54",
       "city": "Raahe",
       "postalCode": 92100,
       "location": {
@@ -10,7 +10,7 @@
       }
     },
     {
-      "streetAddress": "Rautatienkatu 78",
+      "adress": "Rautatienkatu 78",
       "city": "Oulu",
       "postalCode": 90400,
       "location": {
@@ -19,7 +19,7 @@
       }
     },
     {
-      "streetAddress": "Tawastintie 18",
+      "adress": "Tawastintie 18",
       "city": "Hämeenlinna",
       "postalCode": 13270,
       "location": {
@@ -28,7 +28,7 @@
       }
     },
     {
-      "streetAddress": "Torikatu 33",
+      "adress": "Torikatu 33",
       "city": "Oulu",
       "postalCode": 90100,
       "location": {
@@ -37,7 +37,7 @@
       }
     },
     {
-      "streetAddress": "Ilmalankuja 70",
+      "adress": "Ilmalankuja 70",
       "city": "Helsinki",
       "postalCode": 240,
       "location": {
@@ -46,7 +46,7 @@
       }
     },
     {
-      "streetAddress": "Pohjoisesplanadi 40",
+      "adress": "Pohjoisesplanadi 40",
       "postalCode": 130,
       "city": "Helsinki",
       "location": {
@@ -55,7 +55,7 @@
       }
     },
     {
-      "streetAddress": "Kankaanpääntie 79",
+      "adress": "Kankaanpääntie 79",
       "postalCode": 91980,
       "city": "Lumijoki",
       "location": {
@@ -64,7 +64,7 @@
       }
     },
     {
-      "streetAddress": "Pesolantie 60",
+      "adress": "Pesolantie 60",
       "postalCode": 80140,
       "city": "Joensuu",
       "location": {
@@ -73,7 +73,7 @@
       }
     },
     {
-      "streetAddress": "Koulutie 40",
+      "adress": "Koulutie 40",
       "postalCode": 90460,
       "city": "Oulunsalo",
       "location": {
@@ -82,13 +82,113 @@
       }
     },
     {
-      "streetAddress": "Linnoitustie 64",
+      "adress": "Linnoitustie 64",
       "postalCode": 2600,
       "city": "Espoo",
       "location": {
         "lon": 24.810918,
         "lat": 60.2113959
       }
+    },
+    {
+      "address": "Skrattnäsvägen 90",
+      "postalCode": 64100,
+      "city": "Kristinestad",
+      "location": {
+        "lon": 21.3572204,
+        "lat": 62.289226
+      },
+      "type": "slow"
+    },
+    {
+      "address": "Mämminiementie 70",
+      "postalCode": 19950,
+      "city": "Luhanka",
+      "location": {
+        "lon": 25.1422134,
+        "lat": 61.6186256
+      },
+      "type": "fast"
+    },
+    {
+      "address": "Säkkiäntie 3",
+      "postalCode": 35400,
+      "city": "Jämsä",
+      "location": {
+        "lon": 24.7792266,
+        "lat": 61.7296241
+      },
+      "type": "slow"
+    },
+    {
+      "address": "Kuhnustantie 19",
+      "postalCode": 83940,
+      "city": "Juuka",
+      "location": {
+        "lon": 29.4364813,
+        "lat": 63.1752038
+      },
+      "type": "slow"
+    },
+    {
+      "address": "Maaningantie 46",
+      "postalCode": 71750,
+      "city": "Maaninka",
+      "location": {
+        "lon": 27.3019669,
+        "lat": 63.15258
+      },
+      "type": "fast"
+    },
+    {
+      "address": "Liisankatu 96",
+      "postalCode": 15100,
+      "city": "Lahtis",
+      "location": {
+        "lon": 25.662462,
+        "lat": 60.9749935
+      },
+      "type": "slow"
+    },
+    {
+      "address": "Ysitie 40",
+      "postalCode": 40500,
+      "city": "Jyväskylä",
+      "location": {
+        "lon": 25.7169764,
+        "lat": 62.2113155
+      },
+      "type": "fast"
+    },
+    {
+      "address": "Inkereentie 22",
+      "postalCode": 24100,
+      "city": "Salo",
+      "location": {
+        "lon": 23.1448932,
+        "lat": 60.3925659
+      },
+      "type": "fast"
+    },
+    {
+      "address": "Martinpolku 50",
+      "postalCode": 41310,
+      "city": "Laukaa",
+      "location": {
+        "lon": 25.8383751,
+        "lat": 62.3318734
+      },
+      "type": "slow"
+    },
+    {
+      "address": "Vanhamaantie 13",
+      "postalCode": 37910,
+      "city": "Akaa",
+      "location": {
+        "lon": 23.7043574,
+        "lat": 61.1693626
+      },
+      "type": "fast"
     }
   ]
 }
