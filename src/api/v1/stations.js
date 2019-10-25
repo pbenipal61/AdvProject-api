@@ -3,3 +3,5 @@ module.exports.hello = async (req, res, next) => {
     hello: "back at you"
   });
 };
+
+module.exports.all = async (req, res, next) => {};
