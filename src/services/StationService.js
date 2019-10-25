@@ -4,10 +4,7 @@ const { addresses } = require("../data");
 
 module.exports.add = async body => {
   let s = { ...body };
-  s.location.coordinates = [
-    s.location.coordinates.lat,
-    s.location.coordinates.lon
-  ];
+  s.location.coordinates = [s.location.lat, s.location.lon];
 
   s.type.toString().toLowerCase() === "slow"
     ? (s = {
@@ -36,10 +33,7 @@ module.exports.addBatch = async body => {
   let batchedStations = [];
   stations.forEach(async station => {
     let s = { ...station };
-    s.location.coordinates = [
-      s.location.coordinates.lat,
-      s.location.coordinates.lon
-    ];
+    s.location.coordinates = [s.location.lat, s.location.lon];
 
     s.type.toString().toLowerCase() === "slow"
       ? (s = {
