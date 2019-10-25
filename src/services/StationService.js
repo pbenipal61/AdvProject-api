@@ -3,7 +3,30 @@ const { CoordinateTools } = require("../utilities");
 const { addresses } = require("../data");
 
 module.exports.add = async body => {
-  const station = await Station.create(body);
+  let s = { ...body };
+  s.location.coordinates = [
+    s.location.coordinates.lat,
+    s.location.coordinates.lon
+  ];
+
+  s.type.toString().toLowerCase() === "slow"
+    ? (s = {
+        ...s,
+        connectorType: "Type 2",
+        speed: {
+          min: 22,
+          max: 22
+        }
+      })
+    : (s = {
+        ...s,
+        connectorType: "CCS",
+        speed: {
+          max: 150,
+          min: 50
+        }
+      });
+  const station = await Station.create(s);
   return station;
 };
 
@@ -20,21 +43,21 @@ module.exports.addBatch = async body => {
 
     s.type.toString().toLowerCase() === "slow"
       ? (s = {
-        ...s,
-        connectorType: "Type 2",
-        speed: {
-          min: 22,
-          max: 22
-        }
-      })
+          ...s,
+          connectorType: "Type 2",
+          speed: {
+            min: 22,
+            max: 22
+          }
+        })
       : (s = {
-        ...s,
-        connectorType: "CCS",
-        speed: {
-          max: 150,
-          min: 50
-        }
-      });
+          ...s,
+          connectorType: "CCS",
+          speed: {
+            max: 150,
+            min: 50
+          }
+        });
     batchedStations.push(await Station.create(s));
   });
   return batchedStations;
