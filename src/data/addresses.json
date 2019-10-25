@@ -1,7 +1,11 @@
 {
   "addresses": [
     {
+<<<<<<< HEAD
       "address": "Lukiokatu 54",
+=======
+      "adress": "Lukiokatu 54",
+>>>>>>> 9587a35151e583d8e448c3ca309cc8a439ee74b1
       "city": "Raahe",
       "postalCode": 92100,
       "location": {
@@ -11,7 +15,11 @@
       "type": "slow"
     },
     {
+<<<<<<< HEAD
       "address": "Rautatienkatu 78",
+=======
+      "adress": "Rautatienkatu 78",
+>>>>>>> 9587a35151e583d8e448c3ca309cc8a439ee74b1
       "city": "Oulu",
       "postalCode": 90400,
       "location": {
@@ -21,7 +29,11 @@
       "type": "fast"
     },
     {
+<<<<<<< HEAD
       "address": "Tawastintie 18",
+=======
+      "adress": "Tawastintie 18",
+>>>>>>> 9587a35151e583d8e448c3ca309cc8a439ee74b1
       "city": "Hämeenlinna",
       "postalCode": 13270,
       "location": {
@@ -31,7 +43,11 @@
       "type": "slow"
     },
     {
+<<<<<<< HEAD
       "address": "Torikatu 33",
+=======
+      "adress": "Torikatu 33",
+>>>>>>> 9587a35151e583d8e448c3ca309cc8a439ee74b1
       "city": "Oulu",
       "postalCode": 90100,
       "location": {
@@ -41,7 +57,11 @@
       "type": "fast"
     },
     {
+<<<<<<< HEAD
       "address": "Ilmalankuja 70",
+=======
+      "adress": "Ilmalankuja 70",
+>>>>>>> 9587a35151e583d8e448c3ca309cc8a439ee74b1
       "city": "Helsinki",
       "postalCode": 240,
       "location": {
@@ -51,7 +71,11 @@
       "type": "slow"
     },
     {
+<<<<<<< HEAD
       "address": "Pohjoisesplanadi 40",
+=======
+      "adress": "Pohjoisesplanadi 40",
+>>>>>>> 9587a35151e583d8e448c3ca309cc8a439ee74b1
       "postalCode": 130,
       "city": "Helsinki",
       "location": {
@@ -61,7 +85,11 @@
       "type": "fast"
     },
     {
+<<<<<<< HEAD
       "address": "Kankaanpääntie 79",
+=======
+      "adress": "Kankaanpääntie 79",
+>>>>>>> 9587a35151e583d8e448c3ca309cc8a439ee74b1
       "postalCode": 91980,
       "city": "Lumijoki",
       "location": {
@@ -71,7 +99,11 @@
       "type": "slow"
     },
     {
+<<<<<<< HEAD
       "address": "Pesolantie 60",
+=======
+      "adress": "Pesolantie 60",
+>>>>>>> 9587a35151e583d8e448c3ca309cc8a439ee74b1
       "postalCode": 80140,
       "city": "Joensuu",
       "location": {
@@ -81,7 +113,11 @@
       "type": "fast"
     },
     {
+<<<<<<< HEAD
       "address": "Koulutie 40",
+=======
+      "adress": "Koulutie 40",
+>>>>>>> 9587a35151e583d8e448c3ca309cc8a439ee74b1
       "postalCode": 90460,
       "city": "Oulunsalo",
       "location": {
@@ -91,12 +127,118 @@
       "type": "slow"
     },
     {
+<<<<<<< HEAD
       "address": "Linnoitustie 64",
+=======
+      "adress": "Linnoitustie 64",
+>>>>>>> 9587a35151e583d8e448c3ca309cc8a439ee74b1
       "postalCode": 2600,
       "city": "Espoo",
       "location": {
         "lon": 24.810918,
         "lat": 60.2113959
+<<<<<<< HEAD
+=======
+      }
+    },
+    {
+      "address": "Skrattnäsvägen 90",
+      "postalCode": 64100,
+      "city": "Kristinestad",
+      "location": {
+        "lon": 21.3572204,
+        "lat": 62.289226
+      },
+      "type": "slow"
+    },
+    {
+      "address": "Mämminiementie 70",
+      "postalCode": 19950,
+      "city": "Luhanka",
+      "location": {
+        "lon": 25.1422134,
+        "lat": 61.6186256
+      },
+      "type": "fast"
+    },
+    {
+      "address": "Säkkiäntie 3",
+      "postalCode": 35400,
+      "city": "Jämsä",
+      "location": {
+        "lon": 24.7792266,
+        "lat": 61.7296241
+      },
+      "type": "slow"
+    },
+    {
+      "address": "Kuhnustantie 19",
+      "postalCode": 83940,
+      "city": "Juuka",
+      "location": {
+        "lon": 29.4364813,
+        "lat": 63.1752038
+      },
+      "type": "slow"
+    },
+    {
+      "address": "Maaningantie 46",
+      "postalCode": 71750,
+      "city": "Maaninka",
+      "location": {
+        "lon": 27.3019669,
+        "lat": 63.15258
+      },
+      "type": "fast"
+    },
+    {
+      "address": "Liisankatu 96",
+      "postalCode": 15100,
+      "city": "Lahtis",
+      "location": {
+        "lon": 25.662462,
+        "lat": 60.9749935
+      },
+      "type": "slow"
+    },
+    {
+      "address": "Ysitie 40",
+      "postalCode": 40500,
+      "city": "Jyväskylä",
+      "location": {
+        "lon": 25.7169764,
+        "lat": 62.2113155
+      },
+      "type": "fast"
+    },
+    {
+      "address": "Inkereentie 22",
+      "postalCode": 24100,
+      "city": "Salo",
+      "location": {
+        "lon": 23.1448932,
+        "lat": 60.3925659
+      },
+      "type": "fast"
+    },
+    {
+      "address": "Martinpolku 50",
+      "postalCode": 41310,
+      "city": "Laukaa",
+      "location": {
+        "lon": 25.8383751,
+        "lat": 62.3318734
+      },
+      "type": "slow"
+    },
+    {
+      "address": "Vanhamaantie 13",
+      "postalCode": 37910,
+      "city": "Akaa",
+      "location": {
+        "lon": 23.7043574,
+        "lat": 61.1693626
+>>>>>>> 9587a35151e583d8e448c3ca309cc8a439ee74b1
       },
       "type": "fast"
     }
