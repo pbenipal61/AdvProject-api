@@ -29,7 +29,8 @@ const schema = new mongoose.Schema({
   currentEngagement: {
     status: Boolean,
     with: mongoose.SchemaTypes.ObjectId
-  }
+  },
+  price: String
 });
 
 const station = mongoose.model("Station", schema);
